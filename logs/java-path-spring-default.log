@@ -1,0 +1,593 @@
+2021-11-14 21:18:38.200  INFO l2v2xm53-ath - [kground-preinit] [o.h.v.i.u.Version                  ] : HV000001: Hibernate Validator 6.2.0.Final
+2021-11-14 21:18:38.253  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Starting Application using Java 11.0.13 on l2v2xm53-ath with PID 11981 (/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes started by niki.alexopoulou in /home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app)
+2021-11-14 21:18:38.257 DEBUG l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-14 21:18:38.257  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : The following profiles are active: generate-content
+2021-11-14 21:18:39.603  INFO l2v2xm53-ath - [           main] [o.s.b.w.e.t.TomcatWebServer        ] : Tomcat initialized with port(s): 8080 (http)
+2021-11-14 21:18:39.609  INFO l2v2xm53-ath - [           main] [o.a.c.h.Http11NioProtocol          ] : Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-14 21:18:39.610  INFO l2v2xm53-ath - [           main] [o.a.c.c.StandardService            ] : Starting service [Tomcat]
+2021-11-14 21:18:39.610  INFO l2v2xm53-ath - [           main] [o.a.c.c.StandardEngine             ] : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-14 21:18:39.660  INFO l2v2xm53-ath - [           main] [o.a.c.c.C.[.[.[/]                  ] : Initializing Spring embedded WebApplicationContext
+2021-11-14 21:18:39.660  INFO l2v2xm53-ath - [           main] [.ServletWebServerApplicationContext] : Root WebApplicationContext: initialization completed in 1361 ms
+2021-11-14 21:18:39.964  INFO l2v2xm53-ath - [           main] [.s.b.a.h.H2ConsoleAutoConfiguration] : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/eshop_sgdigital'
+2021-11-14 21:18:40.080  INFO l2v2xm53-ath - [           main] [o.h.j.i.u.LogHelper                ] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-14 21:18:40.125  INFO l2v2xm53-ath - [           main] [o.h.Version                        ] : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-14 21:18:40.262  INFO l2v2xm53-ath - [           main] [o.h.a.c.Version                    ] : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-14 21:18:40.347  INFO l2v2xm53-ath - [           main] [o.h.d.Dialect                      ] : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-14 21:18:40.481  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:18:40.492  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:18:40.494  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:18:40.504  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:18:40.523  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:18:40.526  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:18:40.528  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:18:41.270  INFO l2v2xm53-ath - [           main] [o.h.o.c.access                     ] : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@70aa03c0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-11-14 21:18:41.367  INFO l2v2xm53-ath - [           main] [alContainerEntityManagerFactoryBean] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 21:18:41.623 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.CustomerServiceImpl    ] : Loaded gr.codelearn.spring.showcase.app.service.CustomerServiceImpl.
+2021-11-14 21:18:41.806 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.OrderServiceImpl       ] : Loaded gr.codelearn.spring.showcase.app.service.OrderServiceImpl.
+2021-11-14 21:18:41.835 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ProductServiceImpl     ] : Loaded gr.codelearn.spring.showcase.app.service.ProductServiceImpl.
+2021-11-14 21:18:41.858 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.CategoryServiceImpl    ] : Loaded gr.codelearn.spring.showcase.app.service.CategoryServiceImpl.
+2021-11-14 21:18:41.883 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorServiceImpl       ] : Loaded gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:18:41.917 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ShowServiceImpl        ] : Loaded gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:18:41.945 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Loaded gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:18:41.951 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.b.GenerateContentRunner  ] : Loaded gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:18:41.957 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ActorController        ] : Loaded gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:18:41.959 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.CategoryController     ] : Loaded gr.codelearn.spring.showcase.app.controller.CategoryController.
+2021-11-14 21:18:41.960 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.CustomerController     ] : Loaded gr.codelearn.spring.showcase.app.controller.CustomerController.
+2021-11-14 21:18:41.964 TRACE l2v2xm53-ath - [           main] [.s.s.a.c.CustomizedExceptionHandler] : Loaded gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:18:41.965 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.OrderController        ] : Loaded gr.codelearn.spring.showcase.app.controller.OrderController.
+2021-11-14 21:18:41.966 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ProductController      ] : Loaded gr.codelearn.spring.showcase.app.controller.ProductController.
+2021-11-14 21:18:41.967 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ShowController         ] : Loaded gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:18:42.091 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.v.f.FreeMarkerConfigurer   ] : Template loader path [class path resource [freemarker]] resolved to file path [/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes/freemarker]
+2021-11-14 21:18:42.223 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerAdapter] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-14 21:18:42.271 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerMapping] : 66 mappings in 'requestMappingHandlerMapping'
+2021-11-14 21:18:42.292 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.h.SimpleUrlHandlerMapping  ] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-14 21:18:42.305 DEBUG l2v2xm53-ath - [           main] [a.ExceptionHandlerExceptionResolver] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-14 21:18:42.365  WARN l2v2xm53-ath - [           main] [s.b.a.f.FreeMarkerAutoConfiguration] : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2021-11-14 21:18:42.409  INFO l2v2xm53-ath - [           main] [o.a.c.h.Http11NioProtocol          ] : Starting ProtocolHandler ["http-nio-8080"]
+2021-11-14 21:18:42.417  INFO l2v2xm53-ath - [           main] [o.s.b.w.e.t.TomcatWebServer        ] : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-14 21:18:42.425  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Started Application in 4.652 seconds (JVM running for 6.57)
+2021-11-14 21:18:42.506  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.b.GenerateContentRunner  ] : Runner finished
+2021-11-14 21:18:48.795  INFO l2v2xm53-ath - [nio-8080-exec-2] [o.a.c.c.C.[.[.[/]                  ] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-14 21:18:48.795  INFO l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Initializing Servlet 'dispatcherServlet'
+2021-11-14 21:18:48.796 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Detected StandardServletMultipartResolver
+2021-11-14 21:18:48.796 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Detected AcceptHeaderLocaleResolver
+2021-11-14 21:18:48.796 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Detected FixedThemeResolver
+2021-11-14 21:18:48.797 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@518b0c12
+2021-11-14 21:18:48.797 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Detected org.springframework.web.servlet.support.SessionFlashMapManager@62878d7c
+2021-11-14 21:18:48.797 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-11-14 21:18:48.797  INFO l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Completed initialization in 2 ms
+2021-11-14 21:18:48.804 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : GET "/shows", parameters={}
+2021-11-14 21:18:48.806 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [.m.m.a.RequestMappingHandlerMapping] : Mapped to gr.codelearn.spring.showcase.app.controller.ShowController#findAll()
+2021-11-14 21:18:48.908 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [w.s.m.m.a.HttpEntityMethodProcessor] : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-14 21:18:48.935 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [w.s.m.m.a.HttpEntityMethodProcessor] : Writing [ApiResponse(transactionId=436347C7-831B-4036-A2DA-61F37B0356CF, createdAt=2021-11-14T21:18:48.865428 (truncated)...]
+2021-11-14 21:18:48.956 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Completed 200 OK
+2021-11-14 21:18:53.291 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ShowController         ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:18:53.291 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ProductController      ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ProductController.
+2021-11-14 21:18:53.291 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.OrderController        ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.OrderController.
+2021-11-14 21:18:53.292 TRACE l2v2xm53-ath - [ionShutdownHook] [.s.s.a.c.CustomizedExceptionHandler] : Ready to destroy gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:18:53.292 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.CustomerController     ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.CustomerController.
+2021-11-14 21:18:53.292 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.CategoryController     ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.CategoryController.
+2021-11-14 21:18:53.292 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ActorController        ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:18:53.292 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.b.GenerateContentRunner  ] : Ready to destroy gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:18:53.292 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:18:53.293 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ShowServiceImpl        ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:18:53.294 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorServiceImpl       ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:18:53.295 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.CategoryServiceImpl    ] : Ready to destroy gr.codelearn.spring.showcase.app.service.CategoryServiceImpl.
+2021-11-14 21:18:53.295 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ProductServiceImpl     ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ProductServiceImpl.
+2021-11-14 21:18:53.296 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.OrderServiceImpl       ] : Ready to destroy gr.codelearn.spring.showcase.app.service.OrderServiceImpl.
+2021-11-14 21:18:53.297 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.CustomerServiceImpl    ] : Ready to destroy gr.codelearn.spring.showcase.app.service.CustomerServiceImpl.
+2021-11-14 21:18:53.298  INFO l2v2xm53-ath - [ionShutdownHook] [alContainerEntityManagerFactoryBean] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 21:19:51.797  INFO l2v2xm53-ath - [kground-preinit] [o.h.v.i.u.Version                  ] : HV000001: Hibernate Validator 6.2.0.Final
+2021-11-14 21:19:51.831  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Starting Application using Java 11.0.13 on l2v2xm53-ath with PID 13743 (/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes started by niki.alexopoulou in /home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app)
+2021-11-14 21:19:51.835 DEBUG l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-14 21:19:51.836  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : The following profiles are active: generate-content
+2021-11-14 21:19:52.697  INFO l2v2xm53-ath - [           main] [o.s.b.w.e.t.TomcatWebServer        ] : Tomcat initialized with port(s): 8080 (http)
+2021-11-14 21:19:52.702  INFO l2v2xm53-ath - [           main] [o.a.c.h.Http11NioProtocol          ] : Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-14 21:19:52.703  INFO l2v2xm53-ath - [           main] [o.a.c.c.StandardService            ] : Starting service [Tomcat]
+2021-11-14 21:19:52.703  INFO l2v2xm53-ath - [           main] [o.a.c.c.StandardEngine             ] : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-14 21:19:52.746  INFO l2v2xm53-ath - [           main] [o.a.c.c.C.[.[.[/]                  ] : Initializing Spring embedded WebApplicationContext
+2021-11-14 21:19:52.746  INFO l2v2xm53-ath - [           main] [.ServletWebServerApplicationContext] : Root WebApplicationContext: initialization completed in 854 ms
+2021-11-14 21:19:52.961  INFO l2v2xm53-ath - [           main] [.s.b.a.h.H2ConsoleAutoConfiguration] : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/eshop_sgdigital'
+2021-11-14 21:19:53.045  INFO l2v2xm53-ath - [           main] [o.h.j.i.u.LogHelper                ] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-14 21:19:53.075  INFO l2v2xm53-ath - [           main] [o.h.Version                        ] : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-14 21:19:53.139  INFO l2v2xm53-ath - [           main] [o.h.a.c.Version                    ] : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-14 21:19:53.206  INFO l2v2xm53-ath - [           main] [o.h.d.Dialect                      ] : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-14 21:19:53.297  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:19:53.302  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:19:53.303  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:19:53.307  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:19:53.316  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:19:53.318  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:19:53.320  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:19:53.711  INFO l2v2xm53-ath - [           main] [o.h.o.c.access                     ] : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1e406cbe] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-11-14 21:19:53.788  INFO l2v2xm53-ath - [           main] [alContainerEntityManagerFactoryBean] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 21:19:54.012 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.CustomerServiceImpl    ] : Loaded gr.codelearn.spring.showcase.app.service.CustomerServiceImpl.
+2021-11-14 21:19:54.201 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.OrderServiceImpl       ] : Loaded gr.codelearn.spring.showcase.app.service.OrderServiceImpl.
+2021-11-14 21:19:54.241 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ProductServiceImpl     ] : Loaded gr.codelearn.spring.showcase.app.service.ProductServiceImpl.
+2021-11-14 21:19:54.289 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.CategoryServiceImpl    ] : Loaded gr.codelearn.spring.showcase.app.service.CategoryServiceImpl.
+2021-11-14 21:19:54.326 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorServiceImpl       ] : Loaded gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:19:54.361 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ShowServiceImpl        ] : Loaded gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:19:54.392 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Loaded gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:19:54.397 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.b.GenerateContentRunner  ] : Loaded gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:19:54.402 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ActorController        ] : Loaded gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:19:54.404 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.CategoryController     ] : Loaded gr.codelearn.spring.showcase.app.controller.CategoryController.
+2021-11-14 21:19:54.406 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.CustomerController     ] : Loaded gr.codelearn.spring.showcase.app.controller.CustomerController.
+2021-11-14 21:19:54.409 TRACE l2v2xm53-ath - [           main] [.s.s.a.c.CustomizedExceptionHandler] : Loaded gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:19:54.410 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.OrderController        ] : Loaded gr.codelearn.spring.showcase.app.controller.OrderController.
+2021-11-14 21:19:54.411 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ProductController      ] : Loaded gr.codelearn.spring.showcase.app.controller.ProductController.
+2021-11-14 21:19:54.412 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ShowController         ] : Loaded gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:19:54.479 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.v.f.FreeMarkerConfigurer   ] : Template loader path [class path resource [freemarker]] resolved to file path [/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes/freemarker]
+2021-11-14 21:19:54.594 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerAdapter] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-14 21:19:54.650 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerMapping] : 66 mappings in 'requestMappingHandlerMapping'
+2021-11-14 21:19:54.676 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.h.SimpleUrlHandlerMapping  ] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-14 21:19:54.685 DEBUG l2v2xm53-ath - [           main] [a.ExceptionHandlerExceptionResolver] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-14 21:19:54.741  WARN l2v2xm53-ath - [           main] [s.b.a.f.FreeMarkerAutoConfiguration] : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2021-11-14 21:19:54.786  INFO l2v2xm53-ath - [           main] [o.a.c.h.Http11NioProtocol          ] : Starting ProtocolHandler ["http-nio-8080"]
+2021-11-14 21:19:54.796  INFO l2v2xm53-ath - [           main] [o.s.b.w.e.t.TomcatWebServer        ] : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-14 21:19:54.809  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Started Application in 3.344 seconds (JVM running for 4.315)
+2021-11-14 21:19:54.910  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.b.GenerateContentRunner  ] : Runner finished
+2021-11-14 21:19:58.341  INFO l2v2xm53-ath - [nio-8080-exec-1] [o.a.c.c.C.[.[.[/]                  ] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-14 21:19:58.341  INFO l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Initializing Servlet 'dispatcherServlet'
+2021-11-14 21:19:58.341 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected StandardServletMultipartResolver
+2021-11-14 21:19:58.341 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected AcceptHeaderLocaleResolver
+2021-11-14 21:19:58.342 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected FixedThemeResolver
+2021-11-14 21:19:58.342 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2ba4b32b
+2021-11-14 21:19:58.343 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected org.springframework.web.servlet.support.SessionFlashMapManager@36dc6b9
+2021-11-14 21:19:58.343 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-11-14 21:19:58.343  INFO l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Completed initialization in 2 ms
+2021-11-14 21:19:58.349 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : GET "/shows", parameters={}
+2021-11-14 21:19:58.351 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [.m.m.a.RequestMappingHandlerMapping] : Mapped to gr.codelearn.spring.showcase.app.controller.ShowController#findAll()
+2021-11-14 21:19:58.438 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [w.s.m.m.a.HttpEntityMethodProcessor] : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-14 21:19:58.465 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [w.s.m.m.a.HttpEntityMethodProcessor] : Writing [ApiResponse(transactionId=C50F2FE1-EFB0-4234-9AD3-2F2D4A0F4F63, createdAt=2021-11-14T21:19:58.380031 (truncated)...]
+2021-11-14 21:19:58.482 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Completed 200 OK
+2021-11-14 21:20:00.187 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ShowController         ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:20:00.188 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ProductController      ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ProductController.
+2021-11-14 21:20:00.188 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.OrderController        ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.OrderController.
+2021-11-14 21:20:00.188 TRACE l2v2xm53-ath - [ionShutdownHook] [.s.s.a.c.CustomizedExceptionHandler] : Ready to destroy gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:20:00.189 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.CustomerController     ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.CustomerController.
+2021-11-14 21:20:00.189 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.CategoryController     ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.CategoryController.
+2021-11-14 21:20:00.189 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ActorController        ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:20:00.189 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.b.GenerateContentRunner  ] : Ready to destroy gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:20:00.190 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:20:00.191 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ShowServiceImpl        ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:20:00.192 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorServiceImpl       ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:20:00.192 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.CategoryServiceImpl    ] : Ready to destroy gr.codelearn.spring.showcase.app.service.CategoryServiceImpl.
+2021-11-14 21:20:00.192 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ProductServiceImpl     ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ProductServiceImpl.
+2021-11-14 21:20:00.193 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.OrderServiceImpl       ] : Ready to destroy gr.codelearn.spring.showcase.app.service.OrderServiceImpl.
+2021-11-14 21:20:00.193 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.CustomerServiceImpl    ] : Ready to destroy gr.codelearn.spring.showcase.app.service.CustomerServiceImpl.
+2021-11-14 21:20:00.194  INFO l2v2xm53-ath - [ionShutdownHook] [alContainerEntityManagerFactoryBean] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 21:22:30.925  INFO l2v2xm53-ath - [kground-preinit] [o.h.v.i.u.Version                  ] : HV000001: Hibernate Validator 6.2.0.Final
+2021-11-14 21:22:30.965  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Starting Application using Java 11.0.13 on l2v2xm53-ath with PID 15317 (/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes started by niki.alexopoulou in /home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app)
+2021-11-14 21:22:30.969 DEBUG l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-14 21:22:30.970  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : The following profiles are active: generate-content
+2021-11-14 21:22:31.925  INFO l2v2xm53-ath - [           main] [o.s.b.w.e.t.TomcatWebServer        ] : Tomcat initialized with port(s): 8080 (http)
+2021-11-14 21:22:31.930  INFO l2v2xm53-ath - [           main] [o.a.c.h.Http11NioProtocol          ] : Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-14 21:22:31.931  INFO l2v2xm53-ath - [           main] [o.a.c.c.StandardService            ] : Starting service [Tomcat]
+2021-11-14 21:22:31.931  INFO l2v2xm53-ath - [           main] [o.a.c.c.StandardEngine             ] : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-14 21:22:31.983  INFO l2v2xm53-ath - [           main] [o.a.c.c.C.[.[.[/]                  ] : Initializing Spring embedded WebApplicationContext
+2021-11-14 21:22:31.983  INFO l2v2xm53-ath - [           main] [.ServletWebServerApplicationContext] : Root WebApplicationContext: initialization completed in 959 ms
+2021-11-14 21:22:32.174  INFO l2v2xm53-ath - [           main] [.s.b.a.h.H2ConsoleAutoConfiguration] : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/eshop_sgdigital'
+2021-11-14 21:22:32.242  INFO l2v2xm53-ath - [           main] [o.h.j.i.u.LogHelper                ] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-14 21:22:32.270  INFO l2v2xm53-ath - [           main] [o.h.Version                        ] : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-14 21:22:32.327  INFO l2v2xm53-ath - [           main] [o.h.a.c.Version                    ] : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-14 21:22:32.383  INFO l2v2xm53-ath - [           main] [o.h.d.Dialect                      ] : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-14 21:22:32.465  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:22:32.470  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:22:32.471  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:22:32.476  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:22:32.487  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:22:32.489  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:22:32.491  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:22:32.966  INFO l2v2xm53-ath - [           main] [o.h.o.c.access                     ] : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1fd35a92] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-11-14 21:22:33.072  INFO l2v2xm53-ath - [           main] [alContainerEntityManagerFactoryBean] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 21:22:33.291 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.CustomerServiceImpl    ] : Loaded gr.codelearn.spring.showcase.app.service.CustomerServiceImpl.
+2021-11-14 21:22:33.418 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.OrderServiceImpl       ] : Loaded gr.codelearn.spring.showcase.app.service.OrderServiceImpl.
+2021-11-14 21:22:33.454 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ProductServiceImpl     ] : Loaded gr.codelearn.spring.showcase.app.service.ProductServiceImpl.
+2021-11-14 21:22:33.481 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.CategoryServiceImpl    ] : Loaded gr.codelearn.spring.showcase.app.service.CategoryServiceImpl.
+2021-11-14 21:22:33.509 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorServiceImpl       ] : Loaded gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:22:33.549 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ShowServiceImpl        ] : Loaded gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:22:33.578 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Loaded gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:22:33.583 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.b.GenerateContentRunner  ] : Loaded gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:22:33.588 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ActorController        ] : Loaded gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:22:33.590 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.CategoryController     ] : Loaded gr.codelearn.spring.showcase.app.controller.CategoryController.
+2021-11-14 21:22:33.590 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.CustomerController     ] : Loaded gr.codelearn.spring.showcase.app.controller.CustomerController.
+2021-11-14 21:22:33.593 TRACE l2v2xm53-ath - [           main] [.s.s.a.c.CustomizedExceptionHandler] : Loaded gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:22:33.594 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.OrderController        ] : Loaded gr.codelearn.spring.showcase.app.controller.OrderController.
+2021-11-14 21:22:33.595 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ProductController      ] : Loaded gr.codelearn.spring.showcase.app.controller.ProductController.
+2021-11-14 21:22:33.597 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ShowController         ] : Loaded gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:22:33.653 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.v.f.FreeMarkerConfigurer   ] : Template loader path [class path resource [freemarker]] resolved to file path [/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes/freemarker]
+2021-11-14 21:22:33.790 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerAdapter] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-14 21:22:33.857 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerMapping] : 66 mappings in 'requestMappingHandlerMapping'
+2021-11-14 21:22:33.883 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.h.SimpleUrlHandlerMapping  ] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-14 21:22:33.893 DEBUG l2v2xm53-ath - [           main] [a.ExceptionHandlerExceptionResolver] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-14 21:22:33.944  WARN l2v2xm53-ath - [           main] [s.b.a.f.FreeMarkerAutoConfiguration] : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2021-11-14 21:22:33.980  INFO l2v2xm53-ath - [           main] [o.a.c.h.Http11NioProtocol          ] : Starting ProtocolHandler ["http-nio-8080"]
+2021-11-14 21:22:33.987  INFO l2v2xm53-ath - [           main] [o.s.b.w.e.t.TomcatWebServer        ] : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-14 21:22:33.996  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Started Application in 3.613 seconds (JVM running for 4.639)
+2021-11-14 21:22:34.077  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.b.GenerateContentRunner  ] : Runner finished
+2021-11-14 21:22:36.908 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ShowController         ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:22:36.908 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ProductController      ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ProductController.
+2021-11-14 21:22:36.908 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.OrderController        ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.OrderController.
+2021-11-14 21:22:36.908 TRACE l2v2xm53-ath - [ionShutdownHook] [.s.s.a.c.CustomizedExceptionHandler] : Ready to destroy gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:22:36.908 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.CustomerController     ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.CustomerController.
+2021-11-14 21:22:36.908 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.CategoryController     ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.CategoryController.
+2021-11-14 21:22:36.908 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ActorController        ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:22:36.909 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.b.GenerateContentRunner  ] : Ready to destroy gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:22:36.909 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:22:36.909 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ShowServiceImpl        ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:22:36.909 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorServiceImpl       ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:22:36.910 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.CategoryServiceImpl    ] : Ready to destroy gr.codelearn.spring.showcase.app.service.CategoryServiceImpl.
+2021-11-14 21:22:36.910 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ProductServiceImpl     ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ProductServiceImpl.
+2021-11-14 21:22:36.910 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.OrderServiceImpl       ] : Ready to destroy gr.codelearn.spring.showcase.app.service.OrderServiceImpl.
+2021-11-14 21:22:36.910 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.CustomerServiceImpl    ] : Ready to destroy gr.codelearn.spring.showcase.app.service.CustomerServiceImpl.
+2021-11-14 21:22:36.911  INFO l2v2xm53-ath - [ionShutdownHook] [alContainerEntityManagerFactoryBean] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 21:31:11.183  INFO l2v2xm53-ath - [kground-preinit] [o.h.v.i.u.Version                  ] : HV000001: Hibernate Validator 6.2.0.Final
+2021-11-14 21:31:11.217  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Starting Application using Java 11.0.13 on l2v2xm53-ath with PID 20190 (/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes started by niki.alexopoulou in /home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app)
+2021-11-14 21:31:11.220 DEBUG l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-14 21:31:11.220  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : The following profiles are active: generate-content
+2021-11-14 21:31:12.347  INFO l2v2xm53-ath - [           main] [o.s.b.w.e.t.TomcatWebServer        ] : Tomcat initialized with port(s): 8080 (http)
+2021-11-14 21:31:12.354  INFO l2v2xm53-ath - [           main] [o.a.c.h.Http11NioProtocol          ] : Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-14 21:31:12.354  INFO l2v2xm53-ath - [           main] [o.a.c.c.StandardService            ] : Starting service [Tomcat]
+2021-11-14 21:31:12.354  INFO l2v2xm53-ath - [           main] [o.a.c.c.StandardEngine             ] : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-14 21:31:12.422  INFO l2v2xm53-ath - [           main] [o.a.c.c.C.[.[.[/]                  ] : Initializing Spring embedded WebApplicationContext
+2021-11-14 21:31:12.423  INFO l2v2xm53-ath - [           main] [.ServletWebServerApplicationContext] : Root WebApplicationContext: initialization completed in 1158 ms
+2021-11-14 21:31:12.676  INFO l2v2xm53-ath - [           main] [.s.b.a.h.H2ConsoleAutoConfiguration] : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/eshop_sgdigital'
+2021-11-14 21:31:12.771  INFO l2v2xm53-ath - [           main] [o.h.j.i.u.LogHelper                ] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-14 21:31:12.805  INFO l2v2xm53-ath - [           main] [o.h.Version                        ] : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-14 21:31:12.865  INFO l2v2xm53-ath - [           main] [o.h.a.c.Version                    ] : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-14 21:31:12.933  INFO l2v2xm53-ath - [           main] [o.h.d.Dialect                      ] : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-14 21:31:13.027  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:31:13.032  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:31:13.318  INFO l2v2xm53-ath - [           main] [o.h.o.c.access                     ] : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7131d668] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-11-14 21:31:13.376  INFO l2v2xm53-ath - [           main] [alContainerEntityManagerFactoryBean] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 21:31:13.577 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorServiceImpl       ] : Loaded gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:31:13.682 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ShowServiceImpl        ] : Loaded gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:31:13.716 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Loaded gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:31:13.721 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.b.GenerateContentRunner  ] : Loaded gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:31:13.726 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ActorController        ] : Loaded gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:31:13.730 TRACE l2v2xm53-ath - [           main] [.s.s.a.c.CustomizedExceptionHandler] : Loaded gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:31:13.731 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ShowController         ] : Loaded gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:31:13.788 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.v.f.FreeMarkerConfigurer   ] : Template loader path [class path resource [freemarker]] resolved to file path [/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes/freemarker]
+2021-11-14 21:31:13.918 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerAdapter] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-14 21:31:13.961 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerMapping] : 25 mappings in 'requestMappingHandlerMapping'
+2021-11-14 21:31:13.985 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.h.SimpleUrlHandlerMapping  ] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-14 21:31:13.994 DEBUG l2v2xm53-ath - [           main] [a.ExceptionHandlerExceptionResolver] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-14 21:31:14.043  WARN l2v2xm53-ath - [           main] [s.b.a.f.FreeMarkerAutoConfiguration] : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2021-11-14 21:31:14.113  INFO l2v2xm53-ath - [           main] [o.a.c.h.Http11NioProtocol          ] : Starting ProtocolHandler ["http-nio-8080"]
+2021-11-14 21:31:14.123  INFO l2v2xm53-ath - [           main] [o.s.b.w.e.t.TomcatWebServer        ] : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-14 21:31:14.132  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Started Application in 3.414 seconds (JVM running for 4.382)
+2021-11-14 21:31:14.222  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.b.GenerateContentRunner  ] : Runner finished
+2021-11-14 21:31:16.690  INFO l2v2xm53-ath - [nio-8080-exec-1] [o.a.c.c.C.[.[.[/]                  ] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-14 21:31:16.691  INFO l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Initializing Servlet 'dispatcherServlet'
+2021-11-14 21:31:16.691 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected StandardServletMultipartResolver
+2021-11-14 21:31:16.691 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected AcceptHeaderLocaleResolver
+2021-11-14 21:31:16.691 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected FixedThemeResolver
+2021-11-14 21:31:16.691 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@c931728
+2021-11-14 21:31:16.692 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected org.springframework.web.servlet.support.SessionFlashMapManager@664083f6
+2021-11-14 21:31:16.692 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-11-14 21:31:16.692  INFO l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Completed initialization in 1 ms
+2021-11-14 21:31:16.697 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : GET "/shows", parameters={}
+2021-11-14 21:31:16.699 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [.m.m.a.RequestMappingHandlerMapping] : Mapped to gr.codelearn.spring.showcase.app.controller.ShowController#findAll()
+2021-11-14 21:31:16.758 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [w.s.m.m.a.HttpEntityMethodProcessor] : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-14 21:31:16.783 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [w.s.m.m.a.HttpEntityMethodProcessor] : Writing [ApiResponse(transactionId=B57E69E1-9624-48B9-8ED6-F9970B8A29C4, createdAt=2021-11-14T21:31:16.722512 (truncated)...]
+2021-11-14 21:31:16.800 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Completed 200 OK
+2021-11-14 21:31:19.298 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ShowController         ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:31:19.298 TRACE l2v2xm53-ath - [ionShutdownHook] [.s.s.a.c.CustomizedExceptionHandler] : Ready to destroy gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:31:19.298 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ActorController        ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:31:19.298 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.b.GenerateContentRunner  ] : Ready to destroy gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:31:19.299 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:31:19.300 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ShowServiceImpl        ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:31:19.300 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorServiceImpl       ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:31:19.300  INFO l2v2xm53-ath - [ionShutdownHook] [alContainerEntityManagerFactoryBean] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 21:32:16.216  INFO l2v2xm53-ath - [kground-preinit] [o.h.v.i.u.Version                  ] : HV000001: Hibernate Validator 6.2.0.Final
+2021-11-14 21:32:16.259  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Starting Application using Java 11.0.13 on l2v2xm53-ath with PID 21057 (/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes started by niki.alexopoulou in /home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app)
+2021-11-14 21:32:16.264 DEBUG l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-14 21:32:16.265  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : The following profiles are active: generate-content
+2021-11-14 21:32:17.944  INFO l2v2xm53-ath - [           main] [o.s.b.w.e.t.TomcatWebServer        ] : Tomcat initialized with port(s): 8080 (http)
+2021-11-14 21:32:18.023  INFO l2v2xm53-ath - [           main] [.ServletWebServerApplicationContext] : Root WebApplicationContext: initialization completed in 1682 ms
+2021-11-14 21:32:18.163  INFO l2v2xm53-ath - [           main] [.s.b.a.h.H2ConsoleAutoConfiguration] : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/eshop_sgdigital'
+2021-11-14 21:32:18.271  INFO l2v2xm53-ath - [           main] [o.h.j.i.u.LogHelper                ] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-14 21:32:18.299  INFO l2v2xm53-ath - [           main] [o.h.Version                        ] : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-14 21:32:18.365  INFO l2v2xm53-ath - [           main] [o.h.a.c.Version                    ] : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-14 21:32:18.458  INFO l2v2xm53-ath - [           main] [o.h.d.Dialect                      ] : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-14 21:32:18.583  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:32:18.589  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:32:18.970  INFO l2v2xm53-ath - [           main] [o.h.o.c.access                     ] : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@36eb8e07] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-11-14 21:32:19.028  INFO l2v2xm53-ath - [           main] [alContainerEntityManagerFactoryBean] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 21:32:19.273 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorServiceImpl       ] : Loaded gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:32:19.410 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ShowServiceImpl        ] : Loaded gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:32:19.468 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Loaded gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:32:19.476 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.b.GenerateContentRunner  ] : Loaded gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:32:19.483 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ActorController        ] : Loaded gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:32:19.489 TRACE l2v2xm53-ath - [           main] [.s.s.a.c.CustomizedExceptionHandler] : Loaded gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:32:19.490 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ShowController         ] : Loaded gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:32:19.564 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.v.f.FreeMarkerConfigurer   ] : Template loader path [class path resource [freemarker]] resolved to file path [/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes/freemarker]
+2021-11-14 21:32:19.738 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerAdapter] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-14 21:32:19.794 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerMapping] : 25 mappings in 'requestMappingHandlerMapping'
+2021-11-14 21:32:19.825 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.h.SimpleUrlHandlerMapping  ] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-14 21:32:19.834 DEBUG l2v2xm53-ath - [           main] [a.ExceptionHandlerExceptionResolver] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-14 21:32:19.896  WARN l2v2xm53-ath - [           main] [s.b.a.f.FreeMarkerAutoConfiguration] : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2021-11-14 21:32:19.953  WARN l2v2xm53-ath - [           main] [gServletWebServerApplicationContext] : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.bo2021-11-14 21:32:19.981 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ShowController         ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:32:19.981 TRACE l2v2xm53-ath - [ionShutdownHook] [.s.s.a.c.CustomizedExceptionHandler] : Ready to destroy gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:32:19.981 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ActorController        ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:32:19.981 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.b.GenerateContentRunner  ] : Ready to destroy gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:32:19.981 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:32:19.982 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ShowServiceImpl        ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:32:19.982 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorServiceImpl       ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:32:19.983  INFO l2v2xm53-ath - [ionShutdownHook] [alContainerEntityManagerFactoryBean] : Closing JPA EntityManagerFactory for persistence unit 'default'
+osing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 21:32:24.162  INFO l2v2xm53-ath - [kground-preinit] [o.h.v.i.u.Version                  ] : HV000001: Hibernate Validator 6.2.0.Final
+2021-11-14 21:32:24.203  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Starting Application using Java 11.0.13 on l2v2xm53-ath with PID 21511 (/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes started by niki.alexopoulou in /home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app)
+2021-11-14 21:32:24.206 DEBUG l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-14 21:32:24.209  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : The following profiles are active: generate-content
+2021-11-14 21:32:24.963  INFO l2v2xm53-ath - [           main] [o.s.b.w.e.t.TomcatWebServer        ] : Tomcat initialized with port(s): 8080 (http)
+2021-11-14 21:32:24.969  INFO l2v2xm53-ath - [           main] [o.a.c.h.Http11NioProtocol          ] : Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-14 21:32:24.974  INFO l2v2xm53-ath - [           main] [o.a.c.c.StandardService            ] : Starting service [Tomcat]
+2021-11-14 21:32:24.975  INFO l2v2xm53-ath - [           main] [o.a.c.c.StandardEngine             ] : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-14 21:32:25.018  INFO l2v2xm53-ath - [           main] [o.a.c.c.C.[.[.[/]                  ] : Initializing Spring embedded WebApplicationContext
+2021-11-14 21:32:25.018  INFO l2v2xm53-ath - [           main] [.ServletWebServerApplicationContext] : Root WebApplicationContext: initialization completed in 775 ms
+2021-11-14 21:32:28.487  INFO l2v2xm53-ath - [           main] [.s.b.a.h.H2ConsoleAutoConfiguration] : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/eshop_sgdigital'
+2021-11-14 21:32:28.547  INFO l2v2xm53-ath - [           main] [o.h.j.i.u.LogHelper                ] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-14 21:32:28.571  INFO l2v2xm53-ath - [           main] [o.h.Version                        ] : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-14 21:32:28.633  INFO l2v2xm53-ath - [           main] [o.h.a.c.Version                    ] : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-14 21:32:28.683  INFO l2v2xm53-ath - [           main] [o.h.d.Dialect                      ] : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-14 21:32:28.777  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:32:28.783  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:32:29.065  INFO l2v2xm53-ath - [           main] [o.h.o.c.access                     ] : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4f356b98] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-11-14 21:32:29.119  INFO l2v2xm53-ath - [           main] [alContainerEntityManagerFactoryBean] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 21:32:29.308 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorServiceImpl       ] : Loaded gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:32:29.432 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ShowServiceImpl        ] : Loaded gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:32:29.468 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Loaded gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:32:29.475 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.b.GenerateContentRunner  ] : Loaded gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:32:29.481 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ActorController        ] : Loaded gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:32:29.486 TRACE l2v2xm53-ath - [           main] [.s.s.a.c.CustomizedExceptionHandler] : Loaded gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:32:29.488 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ShowController         ] : Loaded gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:32:29.559 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.v.f.FreeMarkerConfigurer   ] : Template loader path [class path resource [freemarker]] resolved to file path [/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes/freemarker]
+2021-11-14 21:32:29.705 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerAdapter] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-14 21:32:29.748 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerMapping] : 25 mappings in 'requestMappingHandlerMapping'
+2021-11-14 21:32:29.773 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.h.SimpleUrlHandlerMapping  ] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-14 21:32:29.781 DEBUG l2v2xm53-ath - [           main] [a.ExceptionHandlerExceptionResolver] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-14 21:32:29.826  WARN l2v2xm53-ath - [           main] [s.b.a.f.FreeMarkerAutoConfiguration] : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2021-11-14 21:32:29.860  INFO l2v2xm53-ath - [           main] [o.a.c.h.Http11NioProtocol          ] : Starting ProtocolHandler ["http-nio-8080"]
+2021-11-14 21:32:29.868  INFO l2v2xm53-ath - [           main] [o.s.b.w.e.t.TomcatWebServer        ] : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-14 21:32:29.877  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Started Application in 6.119 seconds (JVM running for 7.005)
+2021-11-14 21:32:29.962  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.b.GenerateContentRunner  ] : Runner finished
+2021-11-14 21:32:34.269  INFO l2v2xm53-ath - [nio-8080-exec-1] [o.a.c.c.C.[.[.[/]                  ] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-14 21:32:34.269  INFO l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Initializing Servlet 'dispatcherServlet'
+2021-11-14 21:32:34.269 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected StandardServletMultipartResolver
+2021-11-14 21:32:34.269 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected AcceptHeaderLocaleResolver
+2021-11-14 21:32:34.270 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected FixedThemeResolver
+2021-11-14 21:32:34.271 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2b9bbaa8
+2021-11-14 21:32:34.271 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected org.springframework.web.servlet.support.SessionFlashMapManager@75566f4
+2021-11-14 21:32:34.271 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-11-14 21:32:34.271  INFO l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Completed initialization in 2 ms
+2021-11-14 21:32:34.278 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : GET "/shows", parameters={}
+2021-11-14 21:32:34.280 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [.m.m.a.RequestMappingHandlerMapping] : Mapped to gr.codelearn.spring.showcase.app.controller.ShowController#findAll()
+2021-11-14 21:32:34.335 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [w.s.m.m.a.HttpEntityMethodProcessor] : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-14 21:32:34.356 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [w.s.m.m.a.HttpEntityMethodProcessor] : Writing [ApiResponse(transactionId=361C010C-6481-49E2-8E0D-87B73A5913A1, createdAt=2021-11-14T21:32:34.301823 (truncated)...]
+2021-11-14 21:32:34.373 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Completed 200 OK
+2021-11-14 21:32:36.390 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [o.s.w.s.DispatcherServlet          ] : GET "/shows?genre=COMEDY", parameters={masked}
+2021-11-14 21:32:36.392 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [.m.m.a.RequestMappingHandlerMapping] : Mapped to gr.codelearn.spring.showcase.app.controller.ShowController#findShowsPerGenre(Genre)
+2021-11-14 21:32:36.403 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [w.s.m.m.a.HttpEntityMethodProcessor] : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-14 21:32:36.403 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [w.s.m.m.a.HttpEntityMethodProcessor] : Writing [ApiResponse(transactionId=81F01CBB-D961-4138-9844-B333A8262EB0, createdAt=2021-11-14T21:32:36.402658 (truncated)...]
+2021-11-14 21:32:36.404 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [o.s.w.s.DispatcherServlet          ] : Completed 200 OK
+2021-11-14 21:32:40.968 DEBUG l2v2xm53-ath - [nio-8080-exec-4] [o.s.w.s.DispatcherServlet          ] : GET "/actors", parameters={}
+2021-11-14 21:32:40.969 DEBUG l2v2xm53-ath - [nio-8080-exec-4] [.m.m.a.RequestMappingHandlerMapping] : Mapped to gr.codelearn.spring.showcase.app.controller.ActorController#findAll()
+2021-11-14 21:32:40.971 TRACE l2v2xm53-ath - [nio-8080-exec-4] [g.c.s.s.a.s.ActorServiceImpl       ] : Retrieving all entities.
+2021-11-14 21:32:40.985 DEBUG l2v2xm53-ath - [nio-8080-exec-4] [w.s.m.m.a.HttpEntityMethodProcessor] : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-14 21:32:40.985 DEBUG l2v2xm53-ath - [nio-8080-exec-4] [w.s.m.m.a.HttpEntityMethodProcessor] : Writing [ApiResponse(transactionId=41F0CCDE-A319-4779-8AC1-39ADD18F16A0, createdAt=2021-11-14T21:32:40.984913 (truncated)...]
+2021-11-14 21:32:40.987 DEBUG l2v2xm53-ath - [nio-8080-exec-4] [o.s.w.s.DispatcherServlet          ] : Completed 200 OK
+2021-11-14 21:33:04.847 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ShowController         ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:33:04.848 TRACE l2v2xm53-ath - [ionShutdownHook] [.s.s.a.c.CustomizedExceptionHandler] : Ready to destroy gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:33:04.848 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ActorController        ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:33:04.848 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.b.GenerateContentRunner  ] : Ready to destroy gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:33:04.848 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:33:04.848 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ShowServiceImpl        ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:33:04.849 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorServiceImpl       ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:33:04.849  INFO l2v2xm53-ath - [ionShutdownHook] [alContainerEntityManagerFactoryBean] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 21:35:57.418  INFO l2v2xm53-ath - [kground-preinit] [o.h.v.i.u.Version                  ] : HV000001: Hibernate Validator 6.2.0.Final
+2021-11-14 21:35:57.456  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Starting Application using Java 11.0.13 on l2v2xm53-ath with PID 24888 (/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes started by niki.alexopoulou in /home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app)
+2021-11-14 21:35:57.459 DEBUG l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-14 21:35:57.460  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : The following profiles are active: generate-content
+2021-11-14 21:35:58.442  INFO l2v2xm53-ath - [           main] [o.s.b.w.e.t.TomcatWebServer        ] : Tomcat initialized with port(s): 8080 (http)
+2021-11-14 21:35:58.449  INFO l2v2xm53-ath - [           main] [o.a.c.h.Http11NioProtocol          ] : Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-14 21:35:58.450  INFO l2v2xm53-ath - [           main] [o.a.c.c.StandardService            ] : Starting service [Tomcat]
+2021-11-14 21:35:58.450  INFO l2v2xm53-ath - [           main] [o.a.c.c.StandardEngine             ] : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-14 21:35:58.503  INFO l2v2xm53-ath - [           main] [o.a.c.c.C.[.[.[/]                  ] : Initializing Spring embedded WebApplicationContext
+2021-11-14 21:35:58.503  INFO l2v2xm53-ath - [           main] [.ServletWebServerApplicationContext] : Root WebApplicationContext: initialization completed in 1000 ms
+2021-11-14 21:35:58.700  INFO l2v2xm53-ath - [           main] [.s.b.a.h.H2ConsoleAutoConfiguration] : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/eshop_sgdigital'
+2021-11-14 21:35:58.772  INFO l2v2xm53-ath - [           main] [o.h.j.i.u.LogHelper                ] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-14 21:35:58.800  INFO l2v2xm53-ath - [           main] [o.h.Version                        ] : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-14 21:35:58.868  INFO l2v2xm53-ath - [           main] [o.h.a.c.Version                    ] : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-14 21:35:58.929  INFO l2v2xm53-ath - [           main] [o.h.d.Dialect                      ] : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-14 21:35:59.020  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:35:59.026  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:35:59.332  INFO l2v2xm53-ath - [           main] [o.h.o.c.access                     ] : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7096d451] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-11-14 21:35:59.412  INFO l2v2xm53-ath - [           main] [alContainerEntityManagerFactoryBean] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 21:35:59.614 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorServiceImpl       ] : Loaded gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:35:59.730 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ShowServiceImpl        ] : Loaded gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:35:59.765 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Loaded gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:35:59.771 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.b.GenerateContentRunner  ] : Loaded gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:35:59.776 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ActorController        ] : Loaded gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:35:59.781 TRACE l2v2xm53-ath - [           main] [.s.s.a.c.CustomizedExceptionHandler] : Loaded gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:35:59.782 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ShowController         ] : Loaded gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:35:59.838 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.v.f.FreeMarkerConfigurer   ] : Template loader path [class path resource [freemarker]] resolved to file path [/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes/freemarker]
+2021-11-14 21:35:59.957 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerAdapter] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-14 21:36:00.009 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerMapping] : 25 mappings in 'requestMappingHandlerMapping'
+2021-11-14 21:36:00.037 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.h.SimpleUrlHandlerMapping  ] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-14 21:36:00.045 DEBUG l2v2xm53-ath - [           main] [a.ExceptionHandlerExceptionResolver] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-14 21:36:00.102  WARN l2v2xm53-ath - [           main] [s.b.a.f.FreeMarkerAutoConfiguration] : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2021-11-14 21:36:00.139  INFO l2v2xm53-ath - [           main] [o.a.c.h.Http11NioProtocol          ] : Starting ProtocolHandler ["http-nio-8080"]
+2021-11-14 21:36:00.148  INFO l2v2xm53-ath - [           main] [o.s.b.w.e.t.TomcatWebServer        ] : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-14 21:36:00.158  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Started Application in 3.148 seconds (JVM running for 4.018)
+2021-11-14 21:36:00.270  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.b.GenerateContentRunner  ] : Runner finished
+2021-11-14 21:36:01.736  INFO l2v2xm53-ath - [nio-8080-exec-2] [o.a.c.c.C.[.[.[/]                  ] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-14 21:36:01.737  INFO l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Initializing Servlet 'dispatcherServlet'
+2021-11-14 21:36:01.737 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Detected StandardServletMultipartResolver
+2021-11-14 21:36:01.737 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Detected AcceptHeaderLocaleResolver
+2021-11-14 21:36:01.737 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Detected FixedThemeResolver
+2021-11-14 21:36:01.738 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1e5e2e06
+2021-11-14 21:36:01.738 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7b6b99c5
+2021-11-14 21:36:01.738 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-11-14 21:36:01.738  INFO l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Completed initialization in 1 ms
+2021-11-14 21:36:01.744 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : GET "/actors?name=Jennifer%20Aniston", parameters={masked}
+2021-11-14 21:36:01.747 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [.m.m.a.RequestMappingHandlerMapping] : Mapped to gr.codelearn.spring.showcase.app.controller.ActorController#findByName(String)
+2021-11-14 21:36:01.807 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [w.s.m.m.a.HttpEntityMethodProcessor] : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-14 21:36:01.818 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [w.s.m.m.a.HttpEntityMethodProcessor] : Writing [ApiResponse(transactionId=37EEC1D7-1F89-44CC-ABB2-A197D1542DF6, createdAt=2021-11-14T21:36:01.775021 (truncated)...]
+2021-11-14 21:36:01.831 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Completed 200 OK
+2021-11-14 21:36:04.257 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [o.s.w.s.DispatcherServlet          ] : GET "/shows/findShowsPerActor", parameters={}
+2021-11-14 21:36:04.257 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [.m.m.a.RequestMappingHandlerMapping] : Mapped to gr.codelearn.spring.showcase.app.controller.ShowController#findShowsPerActor()
+2021-11-14 21:36:04.276 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [w.s.m.m.a.HttpEntityMethodProcessor] : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-14 21:36:04.276 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [w.s.m.m.a.HttpEntityMethodProcessor] : Writing [ApiResponse(transactionId=743E49E9-90DF-40C9-BB26-801C024FD7DA, createdAt=2021-11-14T21:36:04.275481 (truncated)...]
+2021-11-14 21:36:04.280 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [o.s.w.s.DispatcherServlet          ] : Completed 200 OK
+2021-11-14 21:36:20.544 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ShowController         ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:36:20.544 TRACE l2v2xm53-ath - [ionShutdownHook] [.s.s.a.c.CustomizedExceptionHandler] : Ready to destroy gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:36:20.544 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ActorController        ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:36:20.544 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.b.GenerateContentRunner  ] : Ready to destroy gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:36:20.545 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:36:20.545 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ShowServiceImpl        ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:36:20.546 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorServiceImpl       ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:36:20.546  INFO l2v2xm53-ath - [ionShutdownHook] [alContainerEntityManagerFactoryBean] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 21:36:29.259  INFO l2v2xm53-ath - [kground-preinit] [o.h.v.i.u.Version                  ] : HV000001: Hibernate Validator 6.2.0.Final
+2021-11-14 21:36:29.287  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Starting Application using Java 11.0.13 on l2v2xm53-ath with PID 25182 (/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes started by niki.alexopoulou in /home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app)
+2021-11-14 21:36:29.289 DEBUG l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-14 21:36:29.290  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : The following profiles are active: generate-content
+2021-11-14 21:36:30.122  INFO l2v2xm53-ath - [           main] [o.s.b.w.e.t.TomcatWebServer        ] : Tomcat initialized with port(s): 8080 (http)
+2021-11-14 21:36:30.129  INFO l2v2xm53-ath - [           main] [o.a.c.h.Http11NioProtocol          ] : Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-14 21:36:30.129  INFO l2v2xm53-ath - [           main] [o.a.c.c.StandardService            ] : Starting service [Tomcat]
+2021-11-14 21:36:30.130  INFO l2v2xm53-ath - [           main] [o.a.c.c.StandardEngine             ] : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-14 21:36:30.181  INFO l2v2xm53-ath - [           main] [o.a.c.c.C.[.[.[/]                  ] : Initializing Spring embedded WebApplicationContext
+2021-11-14 21:36:30.181  INFO l2v2xm53-ath - [           main] [.ServletWebServerApplicationContext] : Root WebApplicationContext: initialization completed in 861 ms
+2021-11-14 21:36:30.376  INFO l2v2xm53-ath - [           main] [.s.b.a.h.H2ConsoleAutoConfiguration] : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/eshop_sgdigital'
+2021-11-14 21:36:30.446  INFO l2v2xm53-ath - [           main] [o.h.j.i.u.LogHelper                ] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-14 21:36:30.473  INFO l2v2xm53-ath - [           main] [o.h.Version                        ] : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-14 21:36:30.531  INFO l2v2xm53-ath - [           main] [o.h.a.c.Version                    ] : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-14 21:36:30.586  INFO l2v2xm53-ath - [           main] [o.h.d.Dialect                      ] : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-14 21:36:30.667  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:36:30.672  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:36:30.948  INFO l2v2xm53-ath - [           main] [o.h.o.c.access                     ] : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6c9e74f3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-11-14 21:36:31.002  INFO l2v2xm53-ath - [           main] [alContainerEntityManagerFactoryBean] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 21:36:31.205 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorServiceImpl       ] : Loaded gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:36:31.301 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ShowServiceImpl        ] : Loaded gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:36:31.332 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Loaded gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:36:31.337 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.b.GenerateContentRunner  ] : Loaded gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:36:31.342 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ActorController        ] : Loaded gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:36:31.346 TRACE l2v2xm53-ath - [           main] [.s.s.a.c.CustomizedExceptionHandler] : Loaded gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:36:31.346 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ShowController         ] : Loaded gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:36:31.395 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.v.f.FreeMarkerConfigurer   ] : Template loader path [class path resource [freemarker]] resolved to file path [/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes/freemarker]
+2021-11-14 21:36:31.505 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerAdapter] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-14 21:36:31.549 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerMapping] : 25 mappings in 'requestMappingHandlerMapping'
+2021-11-14 21:36:31.573 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.h.SimpleUrlHandlerMapping  ] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-14 21:36:31.580 DEBUG l2v2xm53-ath - [           main] [a.ExceptionHandlerExceptionResolver] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-14 21:36:31.628  WARN l2v2xm53-ath - [           main] [s.b.a.f.FreeMarkerAutoConfiguration] : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2021-11-14 21:36:31.674  INFO l2v2xm53-ath - [           main] [o.a.c.h.Http11NioProtocol          ] : Starting ProtocolHandler ["http-nio-8080"]
+2021-11-14 21:36:31.686  INFO l2v2xm53-ath - [           main] [o.s.b.w.e.t.TomcatWebServer        ] : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-14 21:36:31.701  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Started Application in 2.853 seconds (JVM running for 3.953)
+2021-11-14 21:36:31.838  INFO l2v2xm53-ath - [nio-8080-exec-1] [o.a.c.c.C.[.[.[/]                  ] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-14 21:36:31.839  INFO l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Initializing Servlet 'dispatcherServlet'
+2021-11-14 21:36:31.839 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected StandardServletMultipartResolver
+2021-11-14 21:36:31.839 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected AcceptHeaderLocaleResolver
+2021-11-14 21:36:31.839 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected FixedThemeResolver
+2021-11-14 21:36:31.840 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4d142b53
+2021-11-14 21:36:31.840 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6d38a81d
+2021-11-14 21:36:31.840 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-11-14 21:36:31.840  INFO l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Completed initialization in 1 ms
+2021-11-14 21:36:31.850 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : GET "/shows/findShowsPerActor", parameters={}
+2021-11-14 21:36:31.850  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.b.GenerateContentRunner  ] : Runner finished
+2021-11-14 21:36:31.852 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [.m.m.a.RequestMappingHandlerMapping] : Mapped to gr.codelearn.spring.showcase.app.controller.ShowController#findShowsPerActor()
+2021-11-14 21:36:31.926 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [w.s.m.m.a.HttpEntityMethodProcessor] : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-14 21:36:31.942 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [w.s.m.m.a.HttpEntityMethodProcessor] : Writing [ApiResponse(transactionId=DF4315FC-F466-4421-B324-461BCB7EDEBF, createdAt=2021-11-14T21:36:31.881797 (truncated)...]
+2021-11-14 21:36:31.961 DEBUG l2v2xm53-ath - [nio-8080-exec-1] [o.s.w.s.DispatcherServlet          ] : Completed 200 OK
+2021-11-14 21:36:34.117 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [o.s.w.s.DispatcherServlet          ] : GET "/actors", parameters={}
+2021-11-14 21:36:34.117 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [.m.m.a.RequestMappingHandlerMapping] : Mapped to gr.codelearn.spring.showcase.app.controller.ActorController#findAll()
+2021-11-14 21:36:34.119 TRACE l2v2xm53-ath - [nio-8080-exec-3] [g.c.s.s.a.s.ActorServiceImpl       ] : Retrieving all entities.
+2021-11-14 21:36:34.129 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [w.s.m.m.a.HttpEntityMethodProcessor] : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-14 21:36:34.130 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [w.s.m.m.a.HttpEntityMethodProcessor] : Writing [ApiResponse(transactionId=644D30CF-F1E1-4FB5-8DA4-5A88B385C902, createdAt=2021-11-14T21:36:34.128751 (truncated)...]
+2021-11-14 21:36:34.132 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [o.s.w.s.DispatcherServlet          ] : Completed 200 OK
+2021-11-14 21:36:41.576 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ShowController         ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:36:41.576 TRACE l2v2xm53-ath - [ionShutdownHook] [.s.s.a.c.CustomizedExceptionHandler] : Ready to destroy gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:36:41.576 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ActorController        ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:36:41.577 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.b.GenerateContentRunner  ] : Ready to destroy gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:36:41.577 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:36:41.577 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ShowServiceImpl        ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:36:41.577 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorServiceImpl       ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:36:41.578  INFO l2v2xm53-ath - [ionShutdownHook] [alContainerEntityManagerFactoryBean] : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 21:37:46.089  INFO l2v2xm53-ath - [kground-preinit] [o.h.v.i.u.Version                  ] : HV000001: Hibernate Validator 6.2.0.Final
+2021-11-14 21:37:46.114  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Starting Application using Java 11.0.13 on l2v2xm53-ath with PID 25713 (/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes started by niki.alexopoulou in /home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app)
+2021-11-14 21:37:46.116 DEBUG l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-14 21:37:46.117  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : The following profiles are active: generate-content
+2021-11-14 21:37:46.952  INFO l2v2xm53-ath - [           main] [o.s.b.w.e.t.TomcatWebServer        ] : Tomcat initialized with port(s): 8080 (http)
+2021-11-14 21:37:46.957  INFO l2v2xm53-ath - [           main] [o.a.c.h.Http11NioProtocol          ] : Initializing ProtocolHandler ["http-nio-8080"]
+2021-11-14 21:37:46.958  INFO l2v2xm53-ath - [           main] [o.a.c.c.StandardService            ] : Starting service [Tomcat]
+2021-11-14 21:37:46.958  INFO l2v2xm53-ath - [           main] [o.a.c.c.StandardEngine             ] : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-14 21:37:47.001  INFO l2v2xm53-ath - [           main] [o.a.c.c.C.[.[.[/]                  ] : Initializing Spring embedded WebApplicationContext
+2021-11-14 21:37:47.001  INFO l2v2xm53-ath - [           main] [.ServletWebServerApplicationContext] : Root WebApplicationContext: initialization completed in 842 ms
+2021-11-14 21:37:47.211  INFO l2v2xm53-ath - [           main] [.s.b.a.h.H2ConsoleAutoConfiguration] : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/eshop_sgdigital'
+2021-11-14 21:37:47.286  INFO l2v2xm53-ath - [           main] [o.h.j.i.u.LogHelper                ] : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-14 21:37:47.311  INFO l2v2xm53-ath - [           main] [o.h.Version                        ] : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-14 21:37:47.367  INFO l2v2xm53-ath - [           main] [o.h.a.c.Version                    ] : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-14 21:37:47.423  INFO l2v2xm53-ath - [           main] [o.h.d.Dialect                      ] : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-14 21:37:47.506  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:37:47.512  WARN l2v2xm53-ath - [           main] [h.b.i.InFlightMetadataCollectorImpl] : HHH000069: Duplicate generator name idGenerator
+2021-11-14 21:37:47.795  INFO l2v2xm53-ath - [           main] [o.h.o.c.access                     ] : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1293f8d7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-11-14 21:37:47.852  INFO l2v2xm53-ath - [           main] [alContainerEntityManagerFactoryBean] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-14 21:37:48.033 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorServiceImpl       ] : Loaded gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:37:48.142 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ShowServiceImpl        ] : Loaded gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:37:48.180 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Loaded gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:37:48.186 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.b.GenerateContentRunner  ] : Loaded gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:37:48.192 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ActorController        ] : Loaded gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:37:48.196 TRACE l2v2xm53-ath - [           main] [.s.s.a.c.CustomizedExceptionHandler] : Loaded gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:37:48.197 TRACE l2v2xm53-ath - [           main] [g.c.s.s.a.c.ShowController         ] : Loaded gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:37:48.257 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.v.f.FreeMarkerConfigurer   ] : Template loader path [class path resource [freemarker]] resolved to file path [/home/niki.alexopoulou/Spring-Boot/project/java-path-spring-sgdigital-showcase/java-path-spring-app/target/classes/freemarker]
+2021-11-14 21:37:48.404 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerAdapter] : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-14 21:37:48.445 DEBUG l2v2xm53-ath - [           main] [.m.m.a.RequestMappingHandlerMapping] : 18 mappings in 'requestMappingHandlerMapping'
+2021-11-14 21:37:48.467 DEBUG l2v2xm53-ath - [           main] [o.s.w.s.h.SimpleUrlHandlerMapping  ] : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-14 21:37:48.475 DEBUG l2v2xm53-ath - [           main] [a.ExceptionHandlerExceptionResolver] : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-14 21:37:48.520  WARN l2v2xm53-ath - [           main] [s.b.a.f.FreeMarkerAutoConfiguration] : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2021-11-14 21:37:48.554  INFO l2v2xm53-ath - [           main] [o.a.c.h.Http11NioProtocol          ] : Starting ProtocolHandler ["http-nio-8080"]
+2021-11-14 21:37:48.562  INFO l2v2xm53-ath - [           main] [o.s.b.w.e.t.TomcatWebServer        ] : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-14 21:37:48.571  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.Application              ] : Started Application in 2.824 seconds (JVM running for 3.733)
+2021-11-14 21:37:48.646  INFO l2v2xm53-ath - [           main] [g.c.s.s.a.b.GenerateContentRunner  ] : Runner finished
+2021-11-14 21:37:53.895  INFO l2v2xm53-ath - [nio-8080-exec-2] [o.a.c.c.C.[.[.[/]                  ] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-14 21:37:53.895  INFO l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Initializing Servlet 'dispatcherServlet'
+2021-11-14 21:37:53.896 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Detected StandardServletMultipartResolver
+2021-11-14 21:37:53.896 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Detected AcceptHeaderLocaleResolver
+2021-11-14 21:37:53.896 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Detected FixedThemeResolver
+2021-11-14 21:37:53.896 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1e5e2e06
+2021-11-14 21:37:53.896 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7b6b99c5
+2021-11-14 21:37:53.896 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-11-14 21:37:53.896  INFO l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Completed initialization in 0 ms
+2021-11-14 21:37:53.901 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : GET "/actors", parameters={}
+2021-11-14 21:37:53.903 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [.m.m.a.RequestMappingHandlerMapping] : Mapped to gr.codelearn.spring.showcase.app.controller.ActorController#findAll()
+2021-11-14 21:37:53.910 TRACE l2v2xm53-ath - [nio-8080-exec-2] [g.c.s.s.a.s.ActorServiceImpl       ] : Retrieving all entities.
+2021-11-14 21:37:53.946 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [w.s.m.m.a.HttpEntityMethodProcessor] : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-14 21:37:53.954 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [w.s.m.m.a.HttpEntityMethodProcessor] : Writing [ApiResponse(transactionId=27AADA72-5AC8-4C0A-8A67-71426833E731, createdAt=2021-11-14T21:37:53.918344 (truncated)...]
+2021-11-14 21:37:53.966 DEBUG l2v2xm53-ath - [nio-8080-exec-2] [o.s.w.s.DispatcherServlet          ] : Completed 200 OK
+2021-11-14 21:37:56.304 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [o.s.w.s.DispatcherServlet          ] : GET "/shows?genre=COMEDY", parameters={masked}
+2021-11-14 21:37:56.306 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [.m.m.a.RequestMappingHandlerMapping] : Mapped to gr.codelearn.spring.showcase.app.controller.ShowController#findShowsPerGenre(Genre)
+2021-11-14 21:37:56.332 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [w.s.m.m.a.HttpEntityMethodProcessor] : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-14 21:37:56.344 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [w.s.m.m.a.HttpEntityMethodProcessor] : Writing [ApiResponse(transactionId=3EDFD906-F309-4349-A0EF-68B4FCC61D72, createdAt=2021-11-14T21:37:56.331881 (truncated)...]
+2021-11-14 21:37:56.348 DEBUG l2v2xm53-ath - [nio-8080-exec-3] [o.s.w.s.DispatcherServlet          ] : Completed 200 OK
+2021-11-14 21:37:57.527 DEBUG l2v2xm53-ath - [nio-8080-exec-4] [o.s.w.s.DispatcherServlet          ] : GET "/shows", parameters={}
+2021-11-14 21:37:57.528 DEBUG l2v2xm53-ath - [nio-8080-exec-4] [.m.m.a.RequestMappingHandlerMapping] : Mapped to gr.codelearn.spring.showcase.app.controller.ShowController#findAll()
+2021-11-14 21:37:57.535 DEBUG l2v2xm53-ath - [nio-8080-exec-4] [w.s.m.m.a.HttpEntityMethodProcessor] : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-14 21:37:57.535 DEBUG l2v2xm53-ath - [nio-8080-exec-4] [w.s.m.m.a.HttpEntityMethodProcessor] : Writing [ApiResponse(transactionId=474AE0D3-17DE-4B25-A509-E92B63D10F58, createdAt=2021-11-14T21:37:57.534651 (truncated)...]
+2021-11-14 21:37:57.536 DEBUG l2v2xm53-ath - [nio-8080-exec-4] [o.s.w.s.DispatcherServlet          ] : Completed 200 OK
+2021-11-14 21:37:58.735 DEBUG l2v2xm53-ath - [nio-8080-exec-5] [o.s.w.s.DispatcherServlet          ] : GET "/shows/findShowsPerActor", parameters={}
+2021-11-14 21:37:58.735 DEBUG l2v2xm53-ath - [nio-8080-exec-5] [.m.m.a.RequestMappingHandlerMapping] : Mapped to gr.codelearn.spring.showcase.app.controller.ShowController#findShowsPerActor()
+2021-11-14 21:37:58.743 DEBUG l2v2xm53-ath - [nio-8080-exec-5] [w.s.m.m.a.HttpEntityMethodProcessor] : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-14 21:37:58.744 DEBUG l2v2xm53-ath - [nio-8080-exec-5] [w.s.m.m.a.HttpEntityMethodProcessor] : Writing [ApiResponse(transactionId=81189B54-3BCC-40AD-A114-F3C9380F1786, createdAt=2021-11-14T21:37:58.743474 (truncated)...]
+2021-11-14 21:37:58.747 DEBUG l2v2xm53-ath - [nio-8080-exec-5] [o.s.w.s.DispatcherServlet          ] : Completed 200 OK
+2021-11-14 21:38:00.340 DEBUG l2v2xm53-ath - [nio-8080-exec-6] [o.s.w.s.DispatcherServlet          ] : GET "/actors?name=Jennifer%20Aniston", parameters={masked}
+2021-11-14 21:38:00.340 DEBUG l2v2xm53-ath - [nio-8080-exec-6] [.m.m.a.RequestMappingHandlerMapping] : Mapped to gr.codelearn.spring.showcase.app.controller.ActorController#findByName(String)
+2021-11-14 21:38:00.353 DEBUG l2v2xm53-ath - [nio-8080-exec-6] [w.s.m.m.a.HttpEntityMethodProcessor] : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-11-14 21:38:00.353 DEBUG l2v2xm53-ath - [nio-8080-exec-6] [w.s.m.m.a.HttpEntityMethodProcessor] : Writing [ApiResponse(transactionId=22C51CB8-CD1E-495D-9493-29CD3669B281, createdAt=2021-11-14T21:38:00.353403 (truncated)...]
+2021-11-14 21:38:00.354 DEBUG l2v2xm53-ath - [nio-8080-exec-6] [o.s.w.s.DispatcherServlet          ] : Completed 200 OK
+2021-11-14 21:38:03.887 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ShowController         ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ShowController.
+2021-11-14 21:38:03.888 TRACE l2v2xm53-ath - [ionShutdownHook] [.s.s.a.c.CustomizedExceptionHandler] : Ready to destroy gr.codelearn.spring.showcase.app.controller.CustomizedExceptionHandler.
+2021-11-14 21:38:03.888 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.c.ActorController        ] : Ready to destroy gr.codelearn.spring.showcase.app.controller.ActorController.
+2021-11-14 21:38:03.888 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.b.GenerateContentRunner  ] : Ready to destroy gr.codelearn.spring.showcase.app.bootstrap.GenerateContentRunner.
+2021-11-14 21:38:03.888 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorShowServiceImpl   ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorShowServiceImpl.
+2021-11-14 21:38:03.888 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ShowServiceImpl        ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ShowServiceImpl.
+2021-11-14 21:38:03.889 TRACE l2v2xm53-ath - [ionShutdownHook] [g.c.s.s.a.s.ActorServiceImpl       ] : Ready to destroy gr.codelearn.spring.showcase.app.service.ActorServiceImpl.
+2021-11-14 21:38:03.889  INFO l2v2xm53-ath - [ionShutdownHook] [alContainerEntityManagerFactoryBean] : Closing JPA EntityManagerFactory for persistence unit 'default'
